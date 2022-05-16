@@ -1,0 +1,149 @@
+--Autofarm Restocking
+
+ _G.AutoFarm = true
+
+while _G.AutoFarm == true do
+    wait()
+
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-197.82766723632812, 17.44266128540039, -113.05643463134766)
+wait(1)
+           for i, v in pairs(game:GetService("Workspace"):GetDescendants()) do
+           if v:IsA("Part") then
+                   if v:FindFirstChild("ProximityPrompt") then
+                       fireproximityprompt(v.ProximityPrompt)
+                   end
+               end
+           end
+           wait(.1)
+
+for i,v in pairs(game.Players.LocalPlayer.Backpack:GetChildren()) do
+if v.Name == "Grey" then
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-200.98976135253906, 17.44266128540039, -131.36473083496094)
+    wait(0.7)
+           for i, v in pairs(game:GetService("Workspace"):GetDescendants()) do
+           if v:IsA("Part") then
+                   if v:FindFirstChild("ProximityPrompt") then
+                       fireproximityprompt(v.ProximityPrompt)
+                   end
+               end
+           end
+end
+end
+for i,v in pairs(game.Players.LocalPlayer.Backpack:GetChildren()) do
+if v.Name == "Green" then
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-200.93716430664062, 17.442663192749023, -153.58457946777344)
+        wait(0.7)
+           for i, v in pairs(game:GetService("Workspace"):GetDescendants()) do
+           if v:IsA("Part") then
+                   if v:FindFirstChild("ProximityPrompt") then
+                       fireproximityprompt(v.ProximityPrompt)
+                   end
+               end
+           end
+end 
+end
+for i,v in pairs(game.Players.LocalPlayer.Backpack:GetChildren()) do
+if v.Name == "White" then
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-214.1436767578125, 17.442663192749023, -132.0854034423828)
+        wait(0.7)
+           for i, v in pairs(game:GetService("Workspace"):GetDescendants()) do
+           if v:IsA("Part") then
+                   if v:FindFirstChild("ProximityPrompt") then
+                       fireproximityprompt(v.ProximityPrompt)
+                   end
+               end
+           end
+end
+end
+for i,v in pairs(game.Players.LocalPlayer.Backpack:GetChildren()) do
+if v.Name == "Black" then
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-214.6453399658203, 17.442663192749023, -153.1477508544922)
+        wait(0.7)
+           for i, v in pairs(game:GetService("Workspace"):GetDescendants()) do
+           if v:IsA("Part") then
+                   if v:FindFirstChild("ProximityPrompt") then
+                       fireproximityprompt(v.ProximityPrompt)
+                   end
+               end
+           end
+end
+end
+for i,v in pairs(game.Players.LocalPlayer.Backpack:GetChildren()) do
+if v.Name == "Purple" then
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-228.67129516601562, 17.442659378051758, -131.57994079589844)
+        wait(0.7)
+           for i, v in pairs(game:GetService("Workspace"):GetDescendants()) do
+           if v:IsA("Part") then
+                   if v:FindFirstChild("ProximityPrompt") then
+                       fireproximityprompt(v.ProximityPrompt)
+                   end
+               end
+           end
+end
+end
+for i,v in pairs(game.Players.LocalPlayer.Backpack:GetChildren()) do
+if v.Name == "Blue" then
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-228.91900634765625, 17.442659378051758, -153.52593994140625)
+        wait(0.7)
+           for i, v in pairs(game:GetService("Workspace"):GetDescendants()) do
+           if v:IsA("Part") then
+                   if v:FindFirstChild("ProximityPrompt") then
+                       fireproximityprompt(v.ProximityPrompt)
+                   end
+               end
+           end
+end
+end
+for i,v in pairs(game.Players.LocalPlayer.Backpack:GetChildren()) do
+if v.Name == "Pink" then
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-250.6226806640625, 17.442659378051758, -133.92633056640625)
+    wait(0.7)
+           for i, v in pairs(game:GetService("Workspace"):GetDescendants()) do
+           if v:IsA("Part") then
+                   if v:FindFirstChild("ProximityPrompt") then
+                       fireproximityprompt(v.ProximityPrompt)
+                   end
+               end
+           end
+end
+end
+for i,v in pairs(game.Players.LocalPlayer.Backpack:GetChildren()) do
+if v.Name == "Red" then
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-250.52587890625, 17.442659378051758, -153.4131317138672)
+        wait(0.7)
+           for i, v in pairs(game:GetService("Workspace"):GetDescendants()) do
+           if v:IsA("Part") then
+                   if v:FindFirstChild("ProximityPrompt") then
+                       fireproximityprompt(v.ProximityPrompt)
+                   end
+               end
+           end
+end
+end
+for i,v in pairs(game.Players.LocalPlayer.Backpack:GetChildren()) do
+if v.Name == "Orange" then
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-265.10394287109375, 17.442659378051758, -133.26885986328125)
+        wait(0.7)
+           for i, v in pairs(game:GetService("Workspace"):GetDescendants()) do
+           if v:IsA("Part") then
+                   if v:FindFirstChild("ProximityPrompt") then
+                       fireproximityprompt(v.ProximityPrompt)
+                   end
+               end
+           end
+end
+end
+for i,v in pairs(game.Players.LocalPlayer.Backpack:GetChildren()) do
+if v.Name == "Brown" then
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-264.71649169921875, 17.442659378051758, -152.63107299804688)
+        wait(0.7)
+           for i, v in pairs(game:GetService("Workspace"):GetDescendants()) do
+           if v:IsA("Part") then
+                   if v:FindFirstChild("ProximityPrompt") then
+                       fireproximityprompt(v.ProximityPrompt)
+                   end
+               end
+           end
+end
+end
+end
