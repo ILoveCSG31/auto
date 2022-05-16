@@ -1,8 +1,13 @@
---Autofarm Restocking
 
- _G.AutoFarm = true
+   _G.Auto1Farm = false
 
-while _G.AutoFarm == true do
+local module = {}
+local plr = game.Players.LocalPlayer
+if plr:IsFriendsWith(2402884413) then
+
+
+
+while _G.Auto1Farm == true do
     wait()
 
 game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-197.82766723632812, 17.44266128540039, -113.05643463134766)
@@ -147,3 +152,8 @@ if v.Name == "Brown" then
 end
 end
 end
+end
+
+
+
+return module
