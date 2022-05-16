@@ -1,5 +1,5 @@
 
-   _G.Auto1Farm = false
+   _G.Auto1Farm = true
 
 local module = {}
 local plr = game.Players.LocalPlayer
